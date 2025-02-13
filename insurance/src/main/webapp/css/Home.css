@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+body{
+  background-image: url(/bgimage.jpg);
+  background-repeat: no-repeat;
+  background-position:cover;
+  background-position-y: 60%;
+  background-position-x: 60%;
+  opacity:90%;
+}
+
+::selection{
+
+    background-color: rgb(43, 171, 43);
+    color: whitesmoke;
+
+}
+
+#safeguardTitle{
+    color:#E50914;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-stretch: expanded;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#logoImage{
+
+    width:60px;
+    height:60px;
+    border-radius: 35px;
+    margin-left:115px;
+    margin-top: 15px;
+
+}
+
+.inputBox{
+
+      height: 35px;
+      font-size: 16px;
+      outline: none;
+      margin-left: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color:  rgba(28, 28, 235, 0.616);
+      border-radius: 7px;
+      color: rgb(192, 185, 185);
+      margin-top: 20px;
+      border: none;
+      width: 260px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 750;
+      cursor:pointer;
+
+}
+
+.inputBox:focus{
+    cursor: text;
+}
+
+
+#signIn{
+    background-color: #E50914;
+    height: 35px;
+    outline: none;
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    color: rgb(192, 185, 185);
+    margin-top: 40px;
+    border: none;
+    width: 298px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:pointer;
+    margin-left: 5px;
+
+}
+
+h1{
+
+    color:#f9faf9fc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-right:30px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    position: relative;
+    top: -20px;
+    left: -5px;
+    color:#E50914;
+}
+
+#inputBoxes{
+    opacity: 90%;
+    background-color: rgb(42, 42, 44);
+    width: 350px;
+    height: 300px;
+    padding-left: 45px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+    margin:auto;
+    position: relative;
+    top: -5px;
+}
+
+#forgotPassword{
+
+   color: rgba(53, 191, 233, 0.616);
+   position: relative;
+   top:20px ;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   text-align: left;
+}
+
+#forgotPassword:hover{
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+#signUpNow{
+
+    position: relative;
+    left: 15px;
+    text-decoration: none;
+    color: rgba(53, 191, 233, 0.616);
+}
+
+
+#signUp{
+
+    position: relative;
+    top: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+
+#signUpNow:hover{
+
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+
+ @media (max-width:700px){
+
+    body{
+        background-color: #000000f1;
+        background-image: none;
+    }
+}
+
+#aboutUs{
+
+    font-size: 19px;
+    text-decoration: none;
+    color:white ;
+    background-color: #e50914cd;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 720px;
+    top: 15px;
+
+}
+
+#aboutUs:hover{
+
+    text-decoration: underline;
+
+}
+
+#terms{
+
+    font-size: 19px;
+    text-decoration: none;
+    color:white ;
+    background-color: #e50914cd;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 730px;
+    top: 15px;
+
+}
+
+#terms:hover{
+
+    text-decoration: underline;
+
+}
+
+#career{
+
+    font-size: 19px;
+    text-decoration: none;
+    color:white ;
+    background-color: #e50914cd;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 740px;
+    top: 15px;
+
+}
+
+#career:hover{
+
+    text-decoration: underline;
+
+}
+
+#contactUs{
+
+    font-size: 19px;
+    text-decoration: none;
+    color:white ;
+    background-color: #e50914cd;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 750px;
+    top: 15px;
+
+}
+
+#contactUs:hover{
+
+    text-decoration: underline;
+
+}

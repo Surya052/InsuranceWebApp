@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+#errorOccurred{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    position:relative;
+    top:-30px;
+}
+
+#errorImage{
+    width:500px;
+    height: 500px;
+    margin-left: 30%;
+    text-align: center;
+    position: relative;
+    top: -55px;
+}
+
+#backToHome{
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#backToHome:hover{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+button{
+    position:relative;
+    left:-330px;
+}
+
+button{
+    background-color: #E50914;
+}
+
+@media(max-width:900px){
+    #errorImage{
+        width:300px;
+        height:300px;  
+        position:relative;
+        left:-10%;
+    }
+    button{
+        position:relative;
+        left:50px;
+        margin-left:25%;
+    }
+}

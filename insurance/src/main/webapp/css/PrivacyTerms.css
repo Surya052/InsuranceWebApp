@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#policyTitle{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    font-size: 28px;
+    color: white;
+
+}
+
+body{
+
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.882);
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+}
+
+.subHeading{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 780;
+    font-size: 24px;
+    margin-bottom: -5px;
+    color: white;
+
+}
+
+.span{
+
+    margin-left: 350px;
+
+}
+
+p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 21px;
+    line-height: 45px;
+
+}
+
+li{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 21px;
+    line-height: 35px;
+    margin-top: 20px;
+
+}
+
+.blackColor{
+
+    font-size: 22px;
+    font-weight: 550;
+
+}
